@@ -1,5 +1,5 @@
 # intro
-a simple scraper to download almost all Figma design files from [ShaynaKit](https://shaynakit.com/landing) ;)
+a simple scraper to download almost all Figma design files from [ShaynaKit](https://shaynakit.com/landing), including paid contents ;)
 
 some files will be missed (0KB) because sometimes the download url has a different format.
 
