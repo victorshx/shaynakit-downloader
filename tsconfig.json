@@ -10,7 +10,9 @@
 		"outDir": "./dist",
 		"incremental": true,
 		"baseUrl": "./",
-		"paths": {},
+		"lib": [
+			"ES2021.String"
+		],
 	},
 	"resolveJsonModule": true,
 }

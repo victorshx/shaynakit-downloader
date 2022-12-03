@@ -10,7 +10,7 @@ export function filterNodes(
 
 export function extractUrlFromNode(node: Node): string | null {
   const rawAttribute: string | undefined = node["rawAttrs"];
-  if (rawAttribute?.startsWith("href")) {
+  if (rawAttribute?.startsWith("href") === true) {
     const regexp = new RegExp(/href=\"(.*)\"/g).exec(rawAttribute);
     return regexp[1];
   }
